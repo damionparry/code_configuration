@@ -6,7 +6,7 @@
   collections:
     - ansible.controller
   environment:
-     CONTROLLER_HOST: https://controller.lab.example.com
+     CONTROLLER_HOST: https://controller
      CONTROLLER_USERNAME: admin
      CONTROLLER_PASSWORD: redhat
      CONTROLLER_VERIFY_SSL: False
