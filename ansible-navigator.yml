@@ -4,7 +4,7 @@ ansible-navigator:
     config:
       path: ./ansible.cfg
   execution-environment:
-    image: ee-supported-rhel8:latest
+    image: registry.redhat.io/ansible-automation-platform-23/ee-supported-rhel8:latest
     pull:
       policy: missing
   mode: stdout
